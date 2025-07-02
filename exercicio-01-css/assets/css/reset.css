@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+:root{
+    --main-color: white;
+    --dark-blue: #2175BF;
+    --middle-blue: #49a3db;
+    --light-blue: #66CAF2;
+    --light-brown: #F2B544;
+    --brown: #BF9460;
+}

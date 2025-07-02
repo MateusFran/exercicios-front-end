@@ -1,0 +1,54 @@
+@import url('reset.css');
+
+header{
+    padding: 150px 20%;
+    text-align: center;
+    background: url('../images/background-image.jpg');
+    background-size: cover;
+}
+
+.header-content{
+    padding: 40px 30px;
+    background-color: #2175bfaa;
+    backdrop-filter: blur(5px);
+}
+
+h1, h2{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+main{
+    height: auto;
+    padding: 80px 50px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+.main-content{
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: var(--dark-blue);
+    opacity: 0.8;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+form input{
+    padding: 15px;
+    color: rgb(96, 96, 96);
+    border-radius: 10px;
+    border: none;
+}
+
+footer{
+    padding: 30px;
+    text-align: center;
+    background-color: var(--middle-blue);
+}
